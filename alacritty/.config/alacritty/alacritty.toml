@@ -1,13 +1,10 @@
 live_config_reload = true
 
-import = [ "~/.config/alacritty/themes/gruvbox_material_medium_dark.toml"]
+import = [ "~/.config/alacritty/themes/gruvbox_dark.toml"]
 
 [shell]
   program= "/bin/zsh"
   args = ["--login", "-c", "tmux new -AsShell"]
-
-[colors]
-draw_bold_text_with_bright_colors = true
 
 [cursor]
 style = "Block"
@@ -23,7 +20,6 @@ size = 18
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
-# style = "Regular"
 style = "ExtraLight"
 
 [window]
