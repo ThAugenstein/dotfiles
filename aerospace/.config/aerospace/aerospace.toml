@@ -79,6 +79,7 @@ indent-for-nested-containers-with-the-same-orientation = 30
 # Starting Applications
 ctrl-alt-enter = 'exec-and-forget open -n /Applications/Alacritty.app'
 ctrl-alt-s = 'exec-and-forget open -n /Applications/Safari.app'
+ctrl-alt-f = 'exec-and-forget open ~'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands.html#layout
 ctrl-alt-t = 'layout tiles horizontal vertical'
@@ -103,7 +104,7 @@ ctrl-alt-up = 'join-with up'
 ctrl-alt-right = 'join-with right'
 
 ctrl-alt-space = 'fullscreen'
-ctrl-alt-c = 'reload-config'
+ctrl-alt-r = 'reload-config'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands.html#resize
 ctrl-alt-n = 'resize smart -50'
