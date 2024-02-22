@@ -75,7 +75,7 @@ indent-for-nested-containers-with-the-same-orientation = 30
 
 # You can uncomment this line to open up terminal with alt + enter shortcut
 # See: https://nikitabobko.github.io/AeroSpace/commands.html#exec-and-forget
-# alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
+ctrl-alt-enter = 'exec-and-forget open -n /Applications/Alacritty.app'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands.html#layout
 ctrl-alt-t = 'layout tiles horizontal vertical'
