@@ -18,7 +18,7 @@ after-startup-command = []
 start-at-login = false
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide.html#normalization
-enable-normalization-flatten-containers = true
+enable-normalization-flatten-containers = false
 enable-normalization-opposite-orientation-for-nested-containers = true
 
 # See: https://nikitabobko.github.io/AeroSpace/guide.html#layouts
@@ -41,8 +41,8 @@ default-root-container-orientation = 'auto'
 #                 In this example, 24 is a default value when there is no match.
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide.html#assign-workspaces-to-monitors
-gaps.inner.horizontal = 2
-gaps.inner.vertical =   2
+gaps.inner.horizontal = 5
+gaps.inner.vertical =   5
 gaps.outer.left =       0
 gaps.outer.bottom =     0
 gaps.outer.top =        0
